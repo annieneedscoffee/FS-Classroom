@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Classrooms</title>
+  </head>
+  <body>
+    <h1>Class Rooms</h1>
+    <div class="container">
+  <% for(var i = 0; i<classes.length; i++){ %>
+  <div class="card">
+    <h3><a href="./details"><%= classes[i] %></a></h3>
+
+  </div>
+  <% } %>
+</div>
+  </body>
+</html>
